@@ -18,7 +18,7 @@ Scan:SetAllowedFolders({
 local result = Scan:Exec() -- will return a table with the folder / file
 PrintTable(result["lua"]["autorun"]) -- will return all file in lua/autorun
 ```
-### Simple wiki
+### Simple Explication
 - NNT.Libs.FileScan:Init() | will return a scan object  example ```local scan = NNT.Libs.FileScan:Init()```
 - Scan:SetPath("*", "GAME") | will allow you to set the path, "GAME" => [list you can use here!](https://wiki.facepunch.com/gmod/File_Search_Paths)
 - Scan:SetAllowedFileType(FileTable) | arguments is the table containing all file type you want to find
